@@ -1,0 +1,27 @@
+{
+  "name": "digicatapult-technical-test",
+  "version": "0.0.2",
+  "description": "Some exercises for prospective full-stack engineers",
+  "main": "middle.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDECatapult/lossy-fuzzer.git"
+  },
+  "scripts": {
+    "test:mocha": "mocha *.test.js",
+    "test:jest": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CDECatapult/lossy-fuzzer/issues"
+  },
+  "homepage": "https://github.com/CDECatapult/lossy-fuzzer#readme",
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "jest": "^29.7.0",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.7"
+  }
+}
