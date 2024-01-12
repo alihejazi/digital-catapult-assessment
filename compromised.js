@@ -26,7 +26,7 @@ export const findCompromised = (arr) => {
       evensCount ++;
     }
     else {
-      // don't do ! check because if firstOdd is 0 it will be overriden
+      // don't do ! check because if firstOddSeen is 0 it will be overriden
       if (firstOddSeen === undefined) {
         firstOddSeen = el;
       }
